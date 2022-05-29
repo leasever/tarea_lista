@@ -38,7 +38,7 @@ function onLoad() {
   // o lineas.find(function(linea){ return linea == contraseña })
   
   for(var linea of lineas) {
-   expresion= /(ZEVALLOS)/;
+   expresion= /(JOSUE)/;
     console.log('[linea]', linea.match(expresion));
     //if(linea === passwordBuscar) {
       // Encontraste contraseña
