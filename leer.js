@@ -5,10 +5,8 @@ const readline = require("readline"),
 let lector = readline.createInterface({
     input: fs.createReadStream(NOMBRE_ARCHIVO)
 });
-// import Persona from "./modules/Persona.js"; 
 
 lector.on("line", linea => {
-
     if (linea.slice(0, 1) === 'C') {
         class Empresa {
             constructor(tipo_registro, codigo_empresa, fecha_envio) {
@@ -36,8 +34,6 @@ lector.on("line", linea => {
             }
         }
         p1 = new Persona(linea.slice(62, 74).trim(), linea.slice(74, 124).trim(), linea.slice(124, 174).trim(), linea.slice(174, 224).trim(), linea.slice(224, 373).trim(), linea.slice(374, 523).trim(), linea.slice(524, 525).trim(), linea.slice(525, 539).trim(), linea.slice(542, 548).trim());
-        console.table(p1);
-
-        // console.table(p1);
+        console.table(p1);        
     }
 });

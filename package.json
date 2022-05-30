@@ -1,14 +1,14 @@
 {
-  
+
   "name": "leer-txt",
   "version": "1.0.0",
-  "description": "",
+  "description": "Leer texto plano por rangos de caracteres - I love Copilot",
   "main": "clases.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Leandro Vega Abraham",
   "license": "ISC"
   
 }
